@@ -19,7 +19,7 @@
                     <div class="px-2 border-l border-neutral-200 dark:border-neutral-700"><font-awesome-icon icon="fa-solid fa-magnifying-glass" class="text-neutral-400 dark:text-neutral-500 text-[18px]  "/></div>
                 </div>
                 <div class="flex justify-center items-center rounded-lg w-[60px] bg-white dark:bg-neutral-900 h-[40px]  cursor-pointer  " v-on:click="counter.Table_Language=!counter.Table_Language">
-                    <img :src="{'./flag/vn.svg':$i18n.locale=='vn','./flag/en.svg':$i18n.locale=='en'}" class="w-[35px] rounded"/>
+                    <img :src="{'/assets/vn-2ac15179.svg':$i18n.locale=='vn','/assets/gb-51a8613a.svg':$i18n.locale=='en'}" class="w-[35px] rounded"/>
                 </div>
                 <div class="flex  rounded-full bg-white dark:bg-neutral-900  h-[40px] w-[40px] px-2 justify-center items-center cursor-pointer border border-gray-300 dark:border-neutral-700" v-on:click="counter.Dark=!counter.Dark; counter.F_Open_Dark();">
                     <font-awesome-icon icon="fa-regular fa-moon"  class="text-[20px] text-neutral-600 dark:text-neutral-300" v-if="counter.Dark==false" />
