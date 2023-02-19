@@ -52,7 +52,7 @@
             </div>
             <!-- button menu when screen < md -->
             <font-awesome-icon icon="fa-solid fa-bars-staggered" class="flex cursor-pointer lg:hidden text-[22px] text-neutral-800 dark:text-neutral-200" v-on:click="counter.Table_Nav=2; counter.Table_Sidebar=1;" v-show="counter.Table_Nav==1"/>
-            <font-awesome-icon icon="fa-solid fa-xmark" class="flex lg:hidden cursor-pointer text-[26px] text-neutral-800 dark:text-neutral-200" v-on:click="counter.Table_Nav=1; counter.Table_Language_sm=!counter.Table_Language_sm" v-show="counter.Table_Nav==2"/>
+            <font-awesome-icon icon="fa-solid fa-xmark" class="flex lg:hidden cursor-pointer text-[26px] text-neutral-800 dark:text-neutral-200" v-on:click="counter.Table_Nav=1; counter.Table_Language_sm=false" v-show="counter.Table_Nav==2"/>
         </div>
     </div>
 
