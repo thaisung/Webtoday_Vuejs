@@ -58,12 +58,12 @@
 
     <!-- Types of bosrds -->
     <!-- > lg -->
-    <div class="hidden lg:flex lg:flex-col items-center justify-center gap-4 px-3 py-4  bg-white dark:bg-neutral-900 border border-gray-300 dark:border-neutral-700 drop-shadow-md absolute z-50  lg:right-[72px] lg:top-[53px] 2xl:right-[118px] 2xl:top-[53px] rounded  cursor-pointer " v-if="counter.Table_Language==true">
+    <div class="hidden lg:flex lg:flex-col items-center justify-center gap-4 px-3 py-4  bg-white dark:bg-neutral-900 border border-gray-300 dark:border-neutral-700 drop-shadow-md absolute z-50  lg:right-[72px] lg:top-[53px] 2xl:right-[118px] 2xl:top-[53px] rounded  cursor-pointer " v-show="counter.Table_Language==true">
         <img src="./flag/vn.svg" class="w-[36px] rounded" v-on:click="$i18n.locale='vi'; counter.Image_Language='/assets/vn-2ac15179.svg'; counter.Table_Language=!counter.Table_Language; counter.Text_Array=['Facebook','Zalo','Gọi điện'];"/>
         <img src="./flag/gb.svg" class="w-[35px] rounded"  v-on:click="$i18n.locale='en'; counter.Image_Language='/assets/gb-51a8613a.svg'; counter.Table_Language=!counter.Table_Language; counter.Text_Array=['Facebook','Zalo','Call'];"/>
     </div>
     <!-- < lg -->
-    <div class="flex flex-col lg:hidden items-center justify-center gap-4 px-3 py-4  bg-white dark:bg-neutral-900 border border-gray-300 dark:border-neutral-700 drop-shadow-md absolute z-50 right-[134px] top-[155px]  rounded  cursor-pointer " v-if="counter.Table_Language_sm==true">
+    <div class="flex flex-col lg:hidden items-center justify-center gap-4 px-3 py-4  bg-white dark:bg-neutral-900 border border-gray-300 dark:border-neutral-700 drop-shadow-md absolute z-50 right-[134px] top-[155px]  rounded  cursor-pointer " v-show="counter.Table_Language_sm==true">
         <img src="./flag/vn.svg" class="w-[36px] rounded" v-on:click="$i18n.locale='vi'; counter.Image_Language='/assets/vn-2ac15179.svg'; counter.Table_Language_sm=!counter.Table_Language_sm; counter.Text_Array=['Facebook','Zalo','Gọi điện'];"/>
         <img src="./flag/gb.svg" class="w-[35px] rounded"  v-on:click="$i18n.locale='en'; counter.Image_Language='/assets/gb-51a8613a.svg'; counter.Table_Language_sm=!counter.Table_Language_sm; counter.Text_Array=['Facebook','Zalo','Call'];"/>
     </div>
