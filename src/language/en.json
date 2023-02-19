@@ -23,21 +23,21 @@
             "Title":"Welcome to WEBTODAY",
             "Text_Animation":"We provide web templates that are available on the site or written on request",
             "Information":{
-                "The_first":{
+                "The_First":{
                     "Title":"1.For the samples available on the Web",
                     "Content":"You can browse through the templates available on the Web to choose the right one for your job. When choosing the available templates, you just need to do the following:",
                     "Body_1":"Sampling.",
                     "Body_2":"Contact staff for advice and quotation (change of interface is allowed within the allowed range).",
                     "Body_3":"Waiting time: After agreeing, staff will deploy 1-2 days and your website will be put into use."
                 },
-                "The_second":{
+                "The_Second":{
                     "Title":"2.Make Web on demand",
                     "Content":"You can refer to the samples available on other parties, after choosing the model, you just need to do the following:",
                     "Body_1":"Sampling.",
                     "Body_2":"Contact staff for advice and quotes (staff will consider the complexity to quote detailed prices for customers).",
                     "Body_3":"Waiting time: After agreeing, staff will deploy to serve customers in the shortest time."
                 },
-                "The_third":{
+                "The_Third":{
                     "Title":"3.Offers when using the WEBTODAY service",
                     "Content":"After using WEBTODAY's services, customers will receive the following incentives:",
                     "Body_1":"Lifetime warranty, 24/7 customer service, if something goes wrong, it will be fixed immediately.",
@@ -52,10 +52,10 @@
         "Tab":{
             "Sell_Accounts":"Sell accounts",
             "Construction_Industry":"Construction industry",
-            "Cosmetics_Industry":"Cosmetics industry",
+            "Cosmetics_Industry":"Cosmetics industry"
         }
     },
     "Footer":{
         "Title":"For further information please contact:"
-    }
+    }   
 }

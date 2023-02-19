@@ -11,9 +11,9 @@
         </div>
         <div class="flex items-center justify-center text-center text-[20px] font-semibold"><h1>{{ $t('Footer.Title') }}</h1></div>
         <div class="flex flex-col sm:flex-row gap-5 items-center justify-center">
-            <h1>Email:vuthaind@gmail.com</h1>
-            <h1>Hotline:0866.558.626</h1>
-            <h1>Website:<a href="http://webtoday.store" target="_blank" class="underline decoration-cyan-600 text-cyan-600">http://webtoday.store</a></h1>
+            <h1>Email : vuthaind@gmail.com</h1>
+            <h1>Hotline : 0866.558.626</h1>
+            <h1>Website : <a href="http://webtoday.store" target="_blank" class="underline decoration-cyan-600 text-cyan-600">http://webtoday.store</a></h1>
         </div>
     </div>
 </template>
