@@ -3,7 +3,7 @@
         <div class="px-6 2xl:px-[70px] border-b border-neutral-200 dark:border-neutral-700 fixed top-0 left-0 right-0 z-40">
             <hea-der />
         </div>
-        <div class=" flex lg:hidden px-6 py-4 2xl:px-[70px] border-b border-neutral-200 dark:border-neutral-700 fixed top-[65px] left-0 right-0 z-30 bg-white">
+        <div class=" flex lg:hidden px-6 py-4 2xl:px-[70px] border-b border-neutral-200 dark:border-neutral-700 fixed top-[65px] left-0 right-0 z-30 bg-white dark:bg-neutral-900">
             <tab-menu />
         </div>
         <div class="flex flex-col lg:flex-row justify-between px-6 2xl:px-[70px] min-h-[500px] mt-[110px] lg:mt-[40px] " >

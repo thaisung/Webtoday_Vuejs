@@ -1,5 +1,5 @@
 <template>
-    <div class=" grow flex flex-col  py-4 lg:px-6  lg:py-10  max-w-[1100px] my-[40px] text-neutral-800 dark:text-neutral-200">
+    <div class=" grow flex flex-col  py-10 lg:px-6  lg:py-10  max-w-[1100px] my-[40px] text-neutral-800 dark:text-neutral-200 gap-5">
         <div v-for="(item,index) in counter.Data_List_Product_Home" class="flex flex-col items-center justify-start">
             <div v-if="$i18n.locale=='vi'" class="flex text-[20px] font-bold mb-2 w-full text-neutral-700 dark:text-neutral-200 gap-2"><h1>{{ index+1 }}</h1><h1>.</h1><h1>{{ item.Title }}</h1><img src="./image/new.png" class="w-[50px]"/></div>
             <div v-if="$i18n.locale=='en'" class="flex text-[20px] font-bold mb-2 w-full text-neutral-700 dark:text-neutral-200 gap-2"><h1>{{ index+1 }}</h1><h1>.</h1><h1>{{ item.Title_English }}</h1><img src="./image/new.png" class="w-[50px]"/></div>
