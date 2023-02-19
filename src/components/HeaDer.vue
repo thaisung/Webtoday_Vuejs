@@ -19,7 +19,7 @@
                     <div class="px-2 border-l border-neutral-200 dark:border-neutral-700"><font-awesome-icon icon="fa-solid fa-magnifying-glass" class="text-neutral-400 dark:text-neutral-500 text-[18px]  "/></div>
                 </div>
                 <div class="flex justify-center items-center rounded-lg w-[60px] bg-white dark:bg-neutral-900 h-[40px]  cursor-pointer  " v-on:click="counter.Table_Language=!counter.Table_Language">
-                    <img src="./flag/vn.svg" class="w-[35px] rounded" v-if="$i18n.locale=='vn'"/><img src="./flag/en.svg" class="w-[35px] rounded" v-if="$i18n.locale=='en'"/>
+                    <img :src="counter.Image_Language" class="w-[35px] rounded" v-if="$i18n.locale=='vn'"/>
                 </div>
                 <div class="flex  rounded-full bg-white dark:bg-neutral-900  h-[40px] w-[40px] px-2 justify-center items-center cursor-pointer border border-gray-300 dark:border-neutral-700" v-on:click="counter.Dark=!counter.Dark; counter.F_Open_Dark();">
                     <font-awesome-icon icon="fa-regular fa-moon"  class="text-[20px] text-neutral-600 dark:text-neutral-300" v-if="counter.Dark==false" />
@@ -35,7 +35,7 @@
                     </div>
                     <div class="flex gap-2">
                         <div class="flex justify-center items-center rounded-full w-[60px] bg-white dark:bg-neutral-900 h-[40px]  cursor-pointer " v-on:click="counter.Table_Language_sm=!counter.Table_Language_sm">
-                            <img src="./flag/vn.svg" class="w-[35px] rounded" v-if="$i18n.locale=='vn'"/><img src="./flag/en.svg" class="w-[35px] rounded" v-if="$i18n.locale=='en'"/>
+                            <img :src="counter.Image_Language" class="w-[35px] rounded" v-show="$i18n.locale=='vn'"/>
                         </div>
                         <div class="flex  rounded-full bg-white dark:bg-neutral-900  h-[40px] w-[40px] px-2 justify-center items-center cursor-pointer border border-gray-300 dark:border-neutral-700" v-on:click="counter.Dark=!counter.Dark; counter.F_Open_Dark();">
                             <font-awesome-icon icon="fa-regular fa-moon"  class="text-[20px] text-neutral-600 dark:text-neutral-300" v-if="counter.Dark==false" />
@@ -64,8 +64,8 @@
     </div>
     <!-- < lg -->
     <div class="flex flex-col lg:hidden items-center justify-center gap-4 px-3 py-4  bg-white dark:bg-neutral-900 border border-gray-300 dark:border-neutral-700 drop-shadow-md absolute z-50 right-[134px] top-[155px]  rounded  cursor-pointer " v-if="counter.Table_Language_sm==true">
-        <img src="./flag/vn.svg" class="w-[36px] rounded" v-on:click="$i18n.locale='vi'; counter.Image_Language='/src/components/flag/vn.svg'; counter.Table_Language_sm=!counter.Table_Language_sm; counter.Text_Array=['Facebook','Zalo','Gọi điện'];"/>
-        <img src="./flag/gb.svg" class="w-[35px] rounded"  v-on:click="$i18n.locale='en'; counter.Image_Language='/src/components/flag/gb.svg'; counter.Table_Language_sm=!counter.Table_Language_sm; counter.Text_Array=['Facebook','Zalo','Call'];"/>
+        <img src="./flag/vn.svg" class="w-[36px] rounded" v-on:click="$i18n.locale='vi'; counter.Image_Language='/assets/vn-2ac15179.svg'; counter.Table_Language_sm=!counter.Table_Language_sm; counter.Text_Array=['Facebook','Zalo','Gọi điện'];"/>
+        <img src="./flag/gb.svg" class="w-[35px] rounded"  v-on:click="$i18n.locale='en'; counter.Image_Language='/assets/gb-51a8613a.svg'; counter.Table_Language_sm=!counter.Table_Language_sm; counter.Text_Array=['Facebook','Zalo','Call'];"/>
     </div>
 </template>
 
