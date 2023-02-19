@@ -3,7 +3,7 @@
         <div class="px-6 2xl:px-[70px] border-b border-neutral-200 dark:border-neutral-700 fixed top-0 left-0 right-0 z-40 ">
             <hea-der />
         </div>
-        <div class="flex flex-col  px-6 2xl:px-[70px] min-h-[500px] items-center" >
+        <div class="flex flex-col  px-6 2xl:px-[70px] min-h-[500px] items-center " >
             <router-view />
         </div>
         <div class="px-6 2xl:px-[70px] border-t border-neutral-200 dark:border-neutral-700 ">
