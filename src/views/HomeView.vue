@@ -1,6 +1,5 @@
 <template>
     <!-- <div class="w-[100px] h-[250px] bg-red-500"><h1>hjkfkgjhdfjkh</h1></div> -->
-    <div>
     <div v-if="counter.Data_List_Product_Home[0].Oder_Image==1" class="grow flex   py-10 lg:px-6  lg:py-10  max-w-[1100px] my-[40px] text-neutral-800 dark:text-neutral-200 gap-5 justify-center items-center"><hollow-dots-spinner :animation-duration="1000" :dot-size="15" :dots-num="3" :color="'#0891b2'"/></div>
     <div v-if="counter.Data_List_Product_Home[0].Oder_Image==0" class=" grow flex flex-col  py-10 lg:px-6  lg:py-10  max-w-[1100px] my-[40px] text-neutral-800 dark:text-neutral-200 gap-5">
         <div v-for="(item,index) in counter.Data_List_Product_Home" class="flex flex-col items-center justify-start">
@@ -20,7 +19,6 @@
             <textarea  :rows="item.Information.split('\r\n').length" v-if="counter.Table_Informations==true && $i18n.locale=='en'" class="pointer-events-none shrink-0 grow w-full mt-3 outline-none border border-neutral-200 dark:border-neutral-700 bg-transparent px-2 py-2 rounded text-neutral-800 dark:text-neutral-300 font-normal">{{ item.Information_English }}</textarea>
             <div class="flex gap-3 mt-5 text-neutral-900 dark:text-neutral-300"><a href="http://webtoday.store" target="_blank" ><button class="bg-cyan-600 px-3 py-1 rounded font-semibold">{{ $t('Body.Home.Button_Image.Demo') }}</button></a><button v-on:click="counter.Table_Informations=!counter.Table_Informations" class="bg-cyan-600 px-3 py-1 rounded font-semibold"><h1 v-if="counter.Table_Informations==false">{{ $t('Body.Home.Button_Image.Information') }}</h1><h1 v-if="counter.Table_Informations==true">{{ $t('Body.Home.Button_Image.Hide_Information') }}</h1></button><button class="bg-cyan-600 px-3 py-1 rounded font-semibold">{{ $t('Body.Home.Button_Image.Contact') }}</button></div>
         </div>
-    </div>
     </div>
 </template>
 
