@@ -63,7 +63,7 @@
         <img src="./flag/gb.svg" class="w-[35px] rounded"  v-on:click="$i18n.locale='en'; counter.Image_Language='/assets/gb-51a8613a.svg'; counter.Table_Language=!counter.Table_Language; counter.Text_Array=['Facebook','Zalo','Call'];"/>
     </div>
     <!-- < lg -->
-    <div class="flex flex-col lg:hidden items-center justify-center gap-4 px-3 py-4  bg-white dark:bg-neutral-900 border border-gray-300 dark:border-neutral-700 drop-shadow-md absolute z-50 right-[134px] top-[155px]  rounded  cursor-pointer " v-show="counter.Table_Language_sm==true">
+    <div class="flex flex-col lg:hidden items-center justify-center gap-4 px-3 py-4  bg-white dark:bg-neutral-900 border border-gray-300 dark:border-neutral-700 drop-shadow-md absolute z-50 right-[143px] top-[155px]  rounded  cursor-pointer " v-show="counter.Table_Language_sm==true">
         <img src="./flag/vn.svg" class="w-[36px] rounded" v-on:click="$i18n.locale='vi'; counter.Image_Language='/assets/vn-2ac15179.svg'; counter.Table_Language_sm=!counter.Table_Language_sm; counter.Text_Array=['Facebook','Zalo','Gọi điện'];"/>
         <img src="./flag/gb.svg" class="w-[35px] rounded"  v-on:click="$i18n.locale='en'; counter.Image_Language='/assets/gb-51a8613a.svg'; counter.Table_Language_sm=!counter.Table_Language_sm; counter.Text_Array=['Facebook','Zalo','Call'];"/>
     </div>
