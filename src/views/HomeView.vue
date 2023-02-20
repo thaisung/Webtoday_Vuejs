@@ -37,7 +37,7 @@
     },
     mounted:function(){
         this.counter.F_Data_List_Product_Home();
-        setTimeout ( this.counter.F_Loading, 1500 );
+        setTimeout ( this.counter.F_Loading, 1000 );
     },
     components: {
     AtomSpinner,FulfillingSquareSpinner,HalfCircleSpinner,TrinityRingsSpinner,HollowDotsSpinner
