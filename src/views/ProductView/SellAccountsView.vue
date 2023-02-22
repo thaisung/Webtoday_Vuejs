@@ -1,5 +1,6 @@
 <template>
     <div class=" grow flex flex-col  py-4 lg:px-6  lg:py-10 ">
+        thththt
         <div v-for="h in counter.nm">{{ h }}</div>
         <!-- List Product -->
         <div v-for="(item,index) in counter.Data_List_Product[0].Category_Industry" class="flex flex-col items-center justify-start">
