@@ -52,7 +52,10 @@
         "Tab":{
             "Sell_Accounts":"Sell accounts",
             "Construction_Industry":"Construction industry",
-            "Cosmetics_Industry":"Cosmetics industry"
+            "Cosmetics_Industry":"Cosmetics industry",
+            "Fashion_Industry":"Fashion industry",
+            "Electronic_Industry":"Electronic industry",
+            "Food_Industry":"Food industry"
         }
     },
     "Footer":{

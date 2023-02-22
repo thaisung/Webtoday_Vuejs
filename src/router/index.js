@@ -43,6 +43,18 @@ const router = createRouter({
           path: "/Product/CosmeticsIndustry",
           component: () => import("../views/ProductView/CosmeticsIndustryView.vue"),
         },
+        {
+          path: "/Product/FashionIndustry",
+          component: () => import("../views/ProductView/FashionIndustryView.vue"),
+        },
+        {
+          path: "/Product/ElectronicIndustry",
+          component: () => import("../views/ProductView/ElectronicIndustryView.vue"),
+        },
+        {
+          path: "/Product/FoodIndustry",
+          component: () => import("../views/ProductView/FoodIndustryView.vue"),
+        },
       ]
     },
     // {

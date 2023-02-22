@@ -52,7 +52,10 @@
         "Tab":{
             "Sell_Accounts":"Mua bán tài khoản",
             "Construction_Industry":"Nghành Xây dựng",
-            "Cosmetics_Industry":"Nghành Mỹ phẩm"
+            "Cosmetics_Industry":"Nghành Mỹ phẩm",
+            "Fashion_Industry":"Nghành Thời trang",
+            "Electronic_Industry":"Nghành Điện tử",
+            "Food_Industry":"Nghành Thực phẩm"
         }
     },
     "Footer":{
