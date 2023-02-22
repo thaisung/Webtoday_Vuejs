@@ -47,7 +47,10 @@
 </template> -->
 <template>
     <div  v-show="counter.Loading==2 && counter.Show_Search==1" class=" grow flex flex-col  py-10 lg:px-6  lg:py-10  max-w-[1100px] my-[40px] text-neutral-800 dark:text-neutral-200 gap-5">
-        <div v-for="(item,index) in counter.Data_List_Product_Home" class="flex flex-col items-center justify-start">
+        thhth
+        <h1>hshdhjdhf</h1>
+        <div v-for="i in ['a','b','c']">{{i}}</div>
+        <!-- <div v-for="(item,index) in counter.Data_List_Product_Home" class="flex flex-col items-center justify-start">
             <div v-if="$i18n.locale=='vi'" class="flex overflow-x-auto  text-[20px] font-bold mb-2 w-full text-neutral-700 dark:text-neutral-200 gap-2"><h1>{{ index+1 }}</h1><h1>.</h1><h1 class="shrink-0">{{ item.Title }}</h1><img src="./image/new.png" class="w-[50px]"/></div>
             <div v-if="$i18n.locale=='en'" class="flex overflow-x-auto text-[20px] font-bold mb-2 w-full text-neutral-700 dark:text-neutral-200 gap-2"><h1>{{ index+1 }}</h1><h1>.</h1><h1 class="shrink-0">{{ item.Title_English }}</h1><img src="./image/new.png" class="w-[50px]"/></div>
             <div class="flex w-full h-full relative justify-center ">
@@ -63,7 +66,7 @@
             <textarea  :rows="item.Information.split('\r\n').length" v-if="counter.Table_Informations==true && $i18n.locale=='vi'" class="pointer-events-none shrink-0 grow w-full mt-3 outline-none border border-neutral-200 dark:border-neutral-700 bg-transparent px-2 py-2 rounded text-neutral-800 dark:text-neutral-300 font-normal">{{ item.Information }}</textarea>
             <textarea  :rows="item.Information.split('\r\n').length" v-if="counter.Table_Informations==true && $i18n.locale=='en'" class="pointer-events-none shrink-0 grow w-full mt-3 outline-none border border-neutral-200 dark:border-neutral-700 bg-transparent px-2 py-2 rounded text-neutral-800 dark:text-neutral-300 font-normal">{{ item.Information_English }}</textarea>
             <div class="flex gap-3 mt-5 text-neutral-900 dark:text-neutral-300"><a href="http://webtoday.store" target="_blank" ><button class="bg-cyan-600 px-3 py-1 rounded font-semibold">{{ $t('Body.Home.Button_Image.Demo') }}</button></a><button v-on:click="counter.Table_Informations=!counter.Table_Informations" class="bg-cyan-600 px-3 py-1 rounded font-semibold"><h1 v-if="counter.Table_Informations==false">{{ $t('Body.Home.Button_Image.Information') }}</h1><h1 v-if="counter.Table_Informations==true">{{ $t('Body.Home.Button_Image.Hide_Information') }}</h1></button><button class="bg-cyan-600 px-3 py-1 rounded font-semibold">{{ $t('Body.Home.Button_Image.Contact') }}</button></div>
-        </div>
+        </div> -->
     </div>
 </template>
 
