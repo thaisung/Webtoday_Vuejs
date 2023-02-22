@@ -1,7 +1,8 @@
 <template>
     <div class=" grow flex flex-col  py-4 lg:px-6  lg:py-10 ">
+        ththth
         <!-- List Product -->
-        <div v-for="(item,index) in counter.Data_List_Product[0].Category_Industry" class="flex flex-col items-center justify-start">
+        <!-- <div v-for="(item,index) in counter.Data_List_Product[0].Category_Industry" class="flex flex-col items-center justify-start">
             <div v-if="$i18n.locale=='vi'" class="flex text-[20px] font-bold mb-2 w-full text-neutral-700 dark:text-neutral-200"><h1>{{ index+1 }}</h1><h1>.</h1><h1>{{ item.Title }}</h1></div>
             <div v-if="$i18n.locale=='en'" class="flex text-[20px] font-bold mb-2 w-full text-neutral-700 dark:text-neutral-200"><h1>{{ index+1 }}</h1><h1>.</h1><h1>{{ item.Title_English }}</h1></div>
             <div class="flex w-full h-full relative justify-center ">
@@ -17,7 +18,7 @@
             <textarea  :rows="item.Information.split('\r\n').length" v-if="counter.Table_Informations==true && $i18n.locale=='vi'" class="pointer-events-none shrink-0 grow w-full mt-3 outline-none border border-neutral-200 dark:border-neutral-700 bg-transparent px-2 py-2 rounded text-neutral-800 dark:text-neutral-300 font-normal">{{ item.Information }}</textarea>
             <textarea  :rows="item.Information.split('\r\n').length" v-if="counter.Table_Informations==true && $i18n.locale=='en'" class="pointer-events-none shrink-0 grow w-full mt-3 outline-none border border-neutral-200 dark:border-neutral-700 bg-transparent px-2 py-2 rounded text-neutral-800 dark:text-neutral-300 font-normal">{{ item.Information_English }}</textarea>
             <div class="flex gap-3 mt-5 text-neutral-900 dark:text-neutral-300"><a href="http://webtoday.store" target="_blank" ><button class="bg-cyan-600 px-3 py-1 rounded font-semibold">{{ $t('Body.Home.Button_Image.Demo') }}</button></a><button v-on:click="counter.Table_Informations=!counter.Table_Informations" class="bg-cyan-600 px-3 py-1 rounded font-semibold"><h1 v-if="counter.Table_Informations==false">{{ $t('Body.Home.Button_Image.Information') }}</h1><h1 v-if="counter.Table_Informations==true">{{ $t('Body.Home.Button_Image.Hide_Information') }}</h1></button><button class="bg-cyan-600 px-3 py-1 rounded font-semibold">{{ $t('Body.Home.Button_Image.Contact') }}</button></div>
-        </div>
+        </div> -->
     </div>
 </template>
 
