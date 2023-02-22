@@ -48,8 +48,9 @@
 <template>
     <div  v-show="counter.Loading==2 && counter.Show_Search==1" class=" grow flex flex-col  py-10 lg:px-6  lg:py-10  max-w-[1100px] my-[40px] text-neutral-800 dark:text-neutral-200 gap-5">
         <div v-for="(item,index) in counter.Data_List_Product_Home" class="flex flex-col items-center justify-start">
-            <div v-if="$i18n.locale=='vi'" class="flex overflow-x-auto  text-[20px] font-bold mb-2 w-full text-neutral-700 dark:text-neutral-200 gap-2"><h1>{{ index+1 }}</h1><h1>.</h1><h1 class="shrink-0">{{ item.Title }}</h1><img src="./image/new.png" class="w-[50px]"/></div>
-            <div v-if="$i18n.locale=='en'" class="flex overflow-x-auto text-[20px] font-bold mb-2 w-full text-neutral-700 dark:text-neutral-200 gap-2"><h1>{{ index+1 }}</h1><h1>.</h1><h1 class="shrink-0">{{ item.Title_English }}</h1><img src="./image/new.png" class="w-[50px]"/></div>
+            ththth
+            <!-- <div v-if="$i18n.locale=='vi'" class="flex overflow-x-auto  text-[20px] font-bold mb-2 w-full text-neutral-700 dark:text-neutral-200 gap-2"><h1>{{ index+1 }}</h1><h1>.</h1><h1 class="shrink-0">{{ item.Title }}</h1><img src="./image/new.png" class="w-[50px]"/></div>
+            <div v-if="$i18n.locale=='en'" class="flex overflow-x-auto text-[20px] font-bold mb-2 w-full text-neutral-700 dark:text-neutral-200 gap-2"><h1>{{ index+1 }}</h1><h1>.</h1><h1 class="shrink-0">{{ item.Title_English }}</h1><img src="./image/new.png" class="w-[50px]"/></div> -->
             <!-- <div class="flex w-full h-full relative justify-center ">
                 <div class="flex flex-col absolute top-0 left-0 right-0 bottom-5  mx-auto justify-end ">
                     <div class="flex gap-2 justify-center ">
