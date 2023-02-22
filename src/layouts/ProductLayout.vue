@@ -8,10 +8,10 @@
         </div>
         <div class="flex flex-col lg:flex-row justify-between px-6 2xl:px-[70px] min-h-[500px] mt-[110px] lg:mt-[40px] " >
             <tab-product class=" border-r border-neutral-200 dark:border-neutral-700 w-[175px] h-screen" />
-            <router-view class="grow flex-col justify-start items-center lg:mx-[175px] border-b border-neutral-200 dark:border-neutral-700"/>
+            <router-view class="grow flex-col justify-start items-center lg:mx-[175px] lg:border-b lg:border-neutral-200 lg:dark:border-neutral-700"/>
             <pos-ter class=" border-l border-neutral-200 dark:border-neutral-700 w-[175px] h-screen"/>
         </div>
-        <div class="">
+        <div class="border-t border-neutral-200 dark:border-neutral-700 lg:border-none">
             <foo-ter />
         </div>
     </div>
