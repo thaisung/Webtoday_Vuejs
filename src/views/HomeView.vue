@@ -46,7 +46,8 @@
     </div>
 </template> -->
 <template>
-    <div  v-if=" counter.Show_Search==1" class=" grow flex flex-col  py-10 lg:px-6  lg:py-10  max-w-[1100px] my-[40px] text-neutral-800 dark:text-neutral-200 gap-5">
+    <div  class=" grow flex flex-col  py-10 lg:px-6  lg:py-10  max-w-[1100px] my-[40px] text-neutral-800 dark:text-neutral-200 gap-5">
+        hthth
         <div v-for="(item,index) in counter.Data_List_Product_Home" class="flex flex-col items-center justify-start">
             ththth
             <!-- <div v-if="$i18n.locale=='vi'" class="flex overflow-x-auto  text-[20px] font-bold mb-2 w-full text-neutral-700 dark:text-neutral-200 gap-2"><h1>{{ index+1 }}</h1><h1>.</h1><h1 class="shrink-0">{{ item.Title }}</h1><img src="./image/new.png" class="w-[50px]"/></div>
