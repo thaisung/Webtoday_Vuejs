@@ -1,7 +1,7 @@
 <template>
     <div class=" grow flex flex-col  py-4 lg:px-6  lg:py-10 ">
         thththt
-        <div v-for="h in counter.nm">{{ h }}</div>
+        <div v-for="h in counter.mn">{{ h }}</div>
         <!-- List Product -->
         <div v-for="(item,index) in counter.Data_List_Product[0].Category_Industry" class="flex flex-col items-center justify-start">
             <div v-if="$i18n.locale=='vi'" class="flex text-[20px] font-bold mb-2 w-full text-neutral-700 dark:text-neutral-200"><h1>{{ index+1 }}</h1><h1>.</h1><h1>{{ item.Title }}</h1></div>
