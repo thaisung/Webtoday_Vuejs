@@ -9,6 +9,7 @@
         <div class="px-6 2xl:px-[70px] border-t border-neutral-200 dark:border-neutral-700 ">
             <foo-ter />
         </div>
+        <chatbook-facebook />
     </div>
 </template>
   
@@ -17,6 +18,7 @@
   // Import thành phần (components) NavBar, SideBar, FooterBar để sử dụng
   import HeaDer from '@/components/HeaDer.vue'
   import FooTer from '@/components/FooTer.vue'
+  import ChatbootFacebook from '@/components/ChatbootFacebook.vue'
 
   import { useCounterStore } from '@/stores/counter';
 
@@ -34,6 +36,7 @@
     components: {
       HeaDer,
       FooTer,
+      ChatbootFacebook,
     }
   }
   </script>
