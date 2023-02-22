@@ -3,7 +3,7 @@
         thththt
         <div v-for="h in counter.mn">{{ h }}</div>
         <!-- List Product -->
-        <div v-for="(item,index) in fg" class="flex flex-col items-center justify-start">
+        <div v-for="(item,index) in counter.fg" class="flex flex-col items-center justify-start">
             <div v-if="$i18n.locale=='vi'" class="flex text-[20px] font-bold mb-2 w-full text-neutral-700 dark:text-neutral-200"><h1>{{ index+1 }}</h1><h1>.</h1><h1>{{ item.Title }}</h1></div>
             <div v-if="$i18n.locale=='en'" class="flex text-[20px] font-bold mb-2 w-full text-neutral-700 dark:text-neutral-200"><h1>{{ index+1 }}</h1><h1>.</h1><h1>{{ item.Title_English }}</h1></div>
             <div class="flex w-full h-full relative justify-center ">
