@@ -14,6 +14,8 @@ import CountryFlag from 'vue-country-flag-next';
 
 import VueKinesis from "vue-kinesis";
 
+import VScrollLock from 'v-scroll-lock'
+ 
 
 // import axios from 'axios'
 import VueCookies from 'vue-cookies';
@@ -64,5 +66,7 @@ app.use(i18n);
 app.use(VueCookies);
 
 app.use(VueKinesis);
+
+app.use(VScrollLock);
 
 app.mount("#app");

@@ -1,8 +1,8 @@
 <template>
     <!-- Button Menu < lg -->
     <div class="flex justify-start items-center w-full gap-3 bg-white dark:bg-neutral-900">
-        <font-awesome-icon icon="fa-solid fa-bars-staggered " class="flex lg:hidden text-[18px] cursor-pointer text-neutral-800 dark:text-neutral-200" v-on:click="counter.Table_Sidebar=2;counter.Table_Nav=1" v-show="counter.Table_Sidebar==1"/>
-        <font-awesome-icon icon="fa-solid fa-xmark" class="flex lg:hidden text-[22px] cursor-pointer text-neutral-800 dark:text-neutral-200" v-on:click="counter.Table_Sidebar=1" v-show="counter.Table_Sidebar==2"/>
+        <font-awesome-icon icon="fa-solid fa-bars-staggered " class="flex lg:hidden text-[18px] cursor-pointer text-neutral-800 dark:text-neutral-200" v-on:click="counter.Table_Sidebar=2;counter.Table_Nav=1; add(); scrollBehavior();" v-show="counter.Table_Sidebar==1"/>
+        <font-awesome-icon icon="fa-solid fa-xmark" class="flex lg:hidden text-[22px] cursor-pointer text-neutral-800 dark:text-neutral-200" v-on:click="counter.Table_Sidebar=1; remove();" v-show="counter.Table_Sidebar==2"/>
         <h1 class="text-neutral-400 dark:text-neutral-500">{{ $t('HeaDer.Tab.Menu') }}</h1>
     </div>
     <!-- Table Tab product < lg -->
@@ -27,6 +27,11 @@
     setup() {
         const counter = useCounterStore();
         return {counter}
+    },
+    methods:{
+        add() {document.body.classList.add('overflow-hidden')},
+        remove() {document.body.classList.remove('overflow-hidden')},
+        scrollBehavior(){window.scrollTo(0,0);},
     },
     }
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <div id="app" v-bind:class="counter.Open_Dark">
+  <div id="app" v-bind:class="counter.Open_Dark" >
     <router-view />
   </div>
 </template>
