@@ -13,7 +13,7 @@
         <div class="flex flex-col md:flex-row gap-5 items-center justify-center">
             <h1>Email : vuthaind@gmail.com</h1>
             <h1>Hotline : 0866.558.626</h1>
-            <h1>Website : <a href="https://www.webtoday.store/" target="_blank" class="underline decoration-cyan-600 text-cyan-600">https://www.webtoday.store/</a></h1>
+            <h1>Website : <a href="https://www.facebook.com/WebTodayWelecom" target="_blank" class="underline decoration-cyan-600 text-cyan-600">https://www.facebook.com/WebTodayWelecom</a></h1>
         </div>
     </div>
 </template>
