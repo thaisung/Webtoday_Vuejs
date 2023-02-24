@@ -12,7 +12,7 @@
     </div>
     <div class="flex flex-col my-[50px] sm:flex-row  items-center justify-center gap-7 text-neutral-800 dark:text-neutral-200">
       <div class="flex gap-5 font-semibold justify-center items-center text-[20px]"><img src="https://cdn.haitrieu.com/wp-content/uploads/2022/01/Logo-Zalo-Arc.png" class="w-[50px]"/><h1>0866.558.626</h1></div>
-      <div class="flex gap-5 font-semibold justify-center items-center text-[20px]"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Facebook_F_icon.svg/640px-Facebook_F_icon.svg.png" class="w-[50px]"/><h1><a href="https://www.webtoday.store/" target="_blank" class="underline decoration-cyan-600 text-cyan-600">https://www.webtoday.store/</a></h1></div>
+      <div class="flex gap-5 font-semibold justify-center items-center text-[20px]"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Facebook_F_icon.svg/640px-Facebook_F_icon.svg.png" class="w-[50px]"/><h1><a href="https://www.facebook.com/WebTodayWelecom" target="_blank" class="underline decoration-cyan-600 text-cyan-600">https://www.facebook.com/WebTodayWelecom</a></h1></div>
       <div class="flex gap-5 font-semibold justify-center items-center text-[20px]"><img src="https://play-lh.googleusercontent.com/wwzWuDb8ivbarUCpB7sEaUkx-vq6HbbqNZ2Eg5a_HpXNNyQpp-cFcNCcG-O9T28N8RLv" class="w-[50px]"/><h1>0866.558.626</h1></div>
     </div>
   </div>
